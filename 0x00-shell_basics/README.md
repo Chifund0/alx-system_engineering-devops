@@ -5,4 +5,4 @@ cd
 ls -l
 ls -la
 cd /tmp
-mkdir my_first_directory
+mkdir /tmp/my_first_directory
