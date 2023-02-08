@@ -1,7 +1,2 @@
 #!/bin/bash
-pwd
-ls
-cd
-ls -l
-ls -la
 mkdir my_first_directory
