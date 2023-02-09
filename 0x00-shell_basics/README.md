@@ -12,4 +12,4 @@ rm -r /tmp/my_first_directory
 cd /alx-system_engineering-devops
 ls -la . .. /boot
 file /tmp/iamafile
-ln -s /bin/ls _ls_
+ln -s /bin/ls ./_ls_
