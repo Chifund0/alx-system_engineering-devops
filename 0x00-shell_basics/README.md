@@ -11,3 +11,4 @@ rm /tmp/my_first_directory/betty
 rm -r /tmp/my_first_directory
 cd /alx-system_engineering-devops
 ls -la . .. /boot
+file /tmp/iamafile
