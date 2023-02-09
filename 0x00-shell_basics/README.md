@@ -13,3 +13,4 @@ cd /alx-system_engineering-devops
 ls -la . .. /boot
 file /tmp/iamafile
 ln -s /bin/ls ./_ls_
+cp -u *.html ..
