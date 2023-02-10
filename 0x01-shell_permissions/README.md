@@ -6,4 +6,4 @@ sudo chown betty hello
 touch hello
 sudo chmod u+x hello
 sudo chmod 754 hello
-chmod 751 hello
+chmod 555 hello
