@@ -20,3 +20,4 @@ egrep -v bin /etc/passwd
 egrep ^[[:alpha:]] /etc/ssh/sshd_config
 tr Ac Ze
 tr -d Cc
+rev
