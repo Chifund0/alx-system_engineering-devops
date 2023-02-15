@@ -12,3 +12,5 @@ tail -1 iacta >> iacta
 find . -type f -name *.js -delete
 find -mindepth 1 -type d | wc -l
 ls -t | head -n 10
+sort | uniq -u
+sort | uniq -u
