@@ -13,3 +13,4 @@ echo $((2#$BINARY))
 echo {a..z}{a..z} | tr " " "\n" | egrep -v "oo"
 printf "%.2f\n" $NUM
 printf "%x\n" $DECIMAL
+tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
