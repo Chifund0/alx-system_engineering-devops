@@ -10,3 +10,4 @@ echo -e "Best School"  >> "\\*\\\\'\"Best School\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"
 ls -la > ls_cwd_content
 tail -1 iacta >> iacta
 find . -type f -name *.js -delete
+find -mindepth 1 -type d | wc -l
