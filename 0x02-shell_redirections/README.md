@@ -21,3 +21,4 @@ egrep ^[[:alpha:]] /etc/ssh/sshd_config
 tr Ac Ze
 tr -d Cc
 rev
+cut -f 1,6 -d : /etc/passwd | sort
