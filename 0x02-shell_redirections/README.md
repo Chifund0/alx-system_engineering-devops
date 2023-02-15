@@ -16,3 +16,4 @@ sort | uniq -u
 egrep root /etc/passwd
 egrep -c bin /etc/passwd
 egrep -A 3 root /etc/passwd
+egrep -v bin /etc/passwd
