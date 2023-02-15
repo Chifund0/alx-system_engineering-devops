@@ -12,7 +12,7 @@ tail -1 iacta >> iacta
 find . -type f -name *.js -delete
 find -mindepth 1 -type d | wc -l
 ls -t | head -n 10
-sort | uniq -u
+sort | uniq u
 egrep root /etc/passwd
 egrep -c bin /etc/passwd
 egrep -A 3 root /etc/passwd
@@ -22,4 +22,4 @@ tr Ac Ze
 tr -d Cc
 rev
 cut -f 1,6 -d : /etc/passwd | sort
-find . -empty -printf %fn 
+find . -empty -printf "%f\n"
