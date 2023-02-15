@@ -12,4 +12,4 @@ echo $((BREATH**LOVE))
 echo $((2#$BINARY))
 echo {a..z}{a..z} | tr " " "\n" | egrep -v "oo"
 printf "%.2f\n" $NUM
-printf %xn $DECIMAL
+printf "%x\n" $DECIMAL
