@@ -5,4 +5,4 @@ export PATH=$PATH:/action
 echo $(printf $PATH | tr ":" "\n" | wc -w)
 printenv
 BEST="School"
-export HOLBERTON="Betty"
+export BEST="School"
