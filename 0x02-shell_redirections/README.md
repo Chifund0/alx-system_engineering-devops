@@ -15,3 +15,4 @@ ls -t | head -n 10
 sort | uniq -u
 egrep root /etc/passwd
 egrep -c bin /etc/passwd
+egrep -A 3 root /etc/passwd
