@@ -15,3 +15,4 @@ printf "%.2f\n" $NUM
 printf "%x\n" $DECIMAL
 tr '[A-Za-z]' '[N-ZA-Mn-za-m]
 cat -n | cut -c6- | grep -vP "[02468]\t" | cut -f2'
+echo "ibase=water; obase=bestchol; $WATER+stir" | bc | tr '[:lower:]' '[:upper:]'
