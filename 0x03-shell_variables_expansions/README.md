@@ -15,4 +15,4 @@ printf "%.2f\n" $NUM
 printf "%x\n" $DECIMAL
 tr '[A-Za-z]' '[N-ZA-Mn-za-m]
 cat -n | cut -c6- | grep -vP "[02468]\t" | cut -f2'
-printf '%o\n' $(( 5#$( echo $WATER | tr water 01234) + 5#$( echo $STIR | tr stir. 01234 ) )) | tr 01234567 behlnort
+printf '%o\n' $(( 5#$( echo $WATER | tr water 01234) + 5#$( echo $STIR | tr stir. 01234 ) )) | tr 01234567 shtbeolhc
