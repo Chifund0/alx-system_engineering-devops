@@ -13,3 +13,4 @@ chmod --reference olleh hello
 chmod -R a+X ./
 mkdir -m 751 my_dir
 chgrp school hello
+chgrp school hello
