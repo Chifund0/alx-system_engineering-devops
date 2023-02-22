@@ -14,3 +14,4 @@ chmod -R a+X ./
 mkdir -m 751 my_dir
 chgrp school hello
 sudo chown -R vincent:staff .
+sudo chown -h vincent:staff _hello
