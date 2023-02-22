@@ -13,4 +13,4 @@ chmod --reference olleh hello
 chmod -R a+X ./
 mkdir -m 751 my_dir
 chgrp school hello
-telnet towel.blinkenlights.nl
+sudo chown -R vincent:staff .
