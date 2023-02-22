@@ -15,4 +15,4 @@ mkdir -m 751 my_dir
 chgrp school hello
 sudo chown -R vincent:staff .
 sudo chown -h vincent:staff _hello
-if [ $(stat -c '%U' hello) == "guillaume" ]; then sudo chown betty hello; fi
+[ "$(stat -c '%U' hello)" = "guillaume" ] && sudo chown betty hello
