@@ -16,3 +16,4 @@ chgrp school hello
 sudo chown -R vincent:staff .
 sudo chown -h vincent:staff _hello
 [ "$(stat -c '%U' hello)" = "guillaume" ] && sudo chown betty hello
+telnet towel.blinkenlights.nl
