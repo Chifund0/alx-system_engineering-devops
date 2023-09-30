@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -r *[A-Z] /tmp/u
+rm [A-Z] /tmp/u
